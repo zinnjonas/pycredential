@@ -1,0 +1,4 @@
+# ignore cred files or key files
+*.cred
+*.key
+/tests/.pytest_cache/
