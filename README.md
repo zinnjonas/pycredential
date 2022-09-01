@@ -9,7 +9,7 @@ This will generate a new credential file and a key file and read the credentials
 
 ```python
 import os
-from credentials import Credentials
+from pycredential.credentials import Credentials
 
 cred = Credentials()
 key_file = "secret.key"
