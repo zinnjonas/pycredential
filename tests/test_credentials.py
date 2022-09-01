@@ -5,7 +5,7 @@ from getpass import getpass
 import pytest
 import credentials
 
-from credentials import Credentials, ENCODING
+from pycredential.credentials import Credentials, ENCODING
 
 SECRET_KEY = b"Hello Credential"
 KEY_FILE = "secret.key"
